@@ -33,10 +33,10 @@ This is the **Contact** page.
 Website and Repository Owner
 
 ### Links
-<a href="(https://www.facebook.com/johnvictordatoon">
+<a href="https://www.facebook.com/johnvictordatoon">
     <img src="img/Facebook.png" alt="Facebook" width="50">
 </a>
-<a href="(https://github.com/johnvictordatoon">
+<a href="https://github.com/johnvictordatoon">
     <img src="img/Github.png" alt="Facebook" width="50">
 </a>
 
@@ -48,10 +48,10 @@ Email: **victordatoon@gmail.com**
 Collaborator
 
 ### Links
-<a href="(https://www.facebook.com/Kuriseteru0">
+<a href="https://www.facebook.com/Kuriseteru0">
     <img src="img/Facebook.png" alt="Facebook" width="50">
 </a>
-<a href="(https://github.com/Kuriseteru0">
+<a href="https://github.com/Kuriseteru0">
     <img src="img/Github.png" alt="Facebook" width="50">
 </a>
 
