@@ -28,51 +28,61 @@
         <div class="menu-item">
             <img src="img/espresso.jpg" alt="Espresso">
             <h3>Espresso</h3>
+            <p>A bold and rich shot of pure coffee, perfect for starting your day.</p>
             <p>₱ 99.00</p>
         </div>
         <div class="menu-item">
             <img src="img/croissant.jpg" alt="Croissant">
             <h3>Croissant</h3>
+            <p>Flaky, buttery, and freshly baked to golden perfection.</p>
             <p>₱ 199.00</p>
         </div>
     </section>
-
+    
     <section id="cafe-menu" class="menu">
         <h2>Coffee</h2>
         <div class="menu-item">
             <img src="img/espresso.jpg" alt="Espresso">
             <h3>Espresso</h3>
+            <p>A bold and rich shot of pure coffee, perfect for starting your day.</p>
             <p>₱ 99.00</p>
         </div>
         <div class="menu-item">
             <img src="img/cappuccino.jpg" alt="Cappuccino">
             <h3>Cappuccino</h3>
+            <p>A creamy blend of espresso and steamed milk, topped with frothy foam.</p>
             <p>₱ 129.00</p>
         </div>
         <div class="menu-item">
             <img src="img/Americano.jpg" alt="Americano">
             <h3>Americano</h3>
+            <p>Smooth espresso mixed with hot water for a milder coffee experience.</p>
             <p>₱ 89.00</p>
         </div>
     </section>
-
+    
     <section class="menu">
         <h2>Pastry</h2>
         <div class="menu-item">
             <img src="img/croissant.jpg" alt="Croissant">
             <h3>Croissant</h3>
+            <p>Flaky, buttery, and freshly baked to golden perfection.</p>
+            <p>₱ 199.00</p>
+        </div>
+        <div class="menu-item">
+            <img src="scones.jpg" alt="Scones">
+            <h3>Scones</h3>
+            <p>Chocolate Cherry Scones are mix together that match-made-in-heaven combination of sweet cherry .</p>
             <p>₱ 199.00</p>
         </div>
         <div class="menu-item">
             <img src="img/chocolate-chip-muffin.jpg" alt="Chocolate Chip Muffin">
             <h3>Chocolate Chip Muffin</h3>
+            <p>Soft and moist muffin loaded with sweet chocolate chips.</p>
             <p>₱ 149.00</p>
         </div>
-        <div class="menu-item">
-            <img src="img/chocolate-chip-muffin.jpg" alt="Chocolate Chip Muffin">
-            <h3>Chocolate Chip Muffin</h3>
-            <p>₱ 149.00</p>
-        </div>
+    </section>
+    
     </section>
 
     <section id="about" class="about">
@@ -80,18 +90,101 @@
         <h3>Our Story</h3>
         <p>CozyCup Coffee House opened its doors in 2025 with a simple dream: to create a warm and inviting space 
             where people could relax and enjoy great coffee.</p>
-        <h3>Our Values</h3>
+        <h3>Our Mission</h3>
         <p>We believe in community, sustainability, and offering honest, quality coffee. We proudly source our beans from ethical farms 
             and support local producers whenever possible.</p>
         <h3>Our Commitment</h3>
         <p>At Cozy Cup Coffee House, quality comes first. From handpicked coffee beans to expertly crafted drinks, we make sure every cup is brewed with care. 
             Whether it's a cozy latte, a tasty pastry, or a friendly chat, we're here to make your day a little brighter. 
             <br><br>Come visit us and experience the comfort of CozyCup Coffee House!</p>
+    
+        <h3>Meet Our Team</h3>
+        <div class="team">
+            <div class="team-member">
+                <img src="owner.jpg" alt="Owner" width="150" height="150">
+                <h4>Hope Salazar</h4>
+                <p>Founder & Owner</p>
+            </div>
+            <div class="team-member">
+                <img src="barista.png" alt="Barista" width="150" height="150">
+                <h4>Mac Salazar</h4>
+                <p>Head Barista</p>
+            </div>
+            <div class="team-member">
+                <img src="staff1.jpg" alt="Staff Member 1" width="150" height="150">
+                <h4>Yasmin Cruz</h4>
+                <p>Customer Service Specialist</p>
+            </div>
+            <div class="team-member">
+                <img src="staff2.jpg" alt="Staff Member 2" width="150" height="150">
+                <h4>Lengleng Tan</h4>
+                <p>Operations Staff</p>
+            </div>
+        </div>
     </section>
+    
 
     <section id="contact" class="contact">
         <h2>Contact Us</h2>
-        <p>Feel free to get in touch. Email: cozycupcoffee@gmail.com</p>
+        <p><strong>Café Address:</strong> 123 Brew Street, PSU 4567</p>
+        <p><strong>Phone Number:</strong> +63 912 345 6789</p>
+        <p><strong>Email:</strong> cozycupcoffee@gmail.com</p>
+        
+        <h3>Send Us a Message</h3>
+        <form action="submit_contact_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required>
+        
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your email address" required>
+        
+            <label for="type">Type of Request:</label>
+            <select id="type" name="type" required>
+                <option value="inquiry">Inquiry</option>
+                <option value="feedback">Feedback</option>
+                <option value="reservation">Reservation</option>
+            </select>
+        
+            <div id="reservation-fields" style="display: none;">
+                <label for="phone">Phone Number (Optional):</label>
+                <input type="tel" id="phone" name="phone" placeholder="Your contact number">
+        
+                <label for="date">Preferred Date:</label>
+                <input type="date" id="date" name="date">
+        
+                <label for="time">Preferred Time:</label>
+                <input type="time" id="time" name="time">
+            </div>
+        
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+        
+            <button type="submit">Submit</button>
+        </form>
+        
+
+        <h3>Find Us Here</h3>
+        <iframe 
+            src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4026231.6449908772!2d114.11958918750001!3d9.777333100000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33b5635b6bd6d3ed%3A0x8b42cc60a81a12b9!2sPalawan%20State%20University!5e0!3m2!1sen!2sph!4v1737361360732!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+
+        <h3>Follow Us on Social Media</h3>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/PSU.CS.CSG" target="_blank">
+                <img src="Facebook_logo_(square).png" alt="Facebook" width="40" height="40">
+            </a>
+            <a href="https://www.facebook.com/PSU.CS.CSG" target="_blank">
+                <img src="igicon.png" alt="Instagram" width="40" height="40">
+            </a>
+            <a href="https://www.facebook.com/PSU.CS.CSG" target="_blank">
+                <img src="Xicon.jpg" alt="Twitter" width="40" height="40">
+            </a>
+        </div>
     </section>
 
     <footer>
@@ -101,7 +194,7 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <p>&copy; 2025 CozyCup Coffe House <br>All rights reserved.</p>
+        <p>&copy; 2025 CozyCup Coffee House<br>All rights reserved.</p>
     </footer>
 </body>
 </html>
