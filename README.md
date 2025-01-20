@@ -55,4 +55,4 @@ Collaborator
     <img src="img/Github.png" alt="Facebook" width="50">
 </a>
 
-Email: **cristelbugayong@email.com**
+Email: ****cristelbugayong@email.com**
